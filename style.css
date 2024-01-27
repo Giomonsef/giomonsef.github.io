@@ -1,0 +1,89 @@
+
+body, h1, h2, p, ul, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #7f9fd4;
+    color: #fff; 
+}
+
+header {
+    background-color: #0000FF;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+section {
+    margin: 2rem;
+}
+
+h2 {
+    color: #333;
+}
+
+
+
+form {
+    background-color: #0000FF;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+
+.question input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+input[type="text"],
+input[type="radio"],
+input[type="checkbox"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #3498db; 
+    color: #fff;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
